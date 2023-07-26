@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Creation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section class ="main">
+                <div class = "left2">   
+                    <div class="logo2-wrapper">
+                        <img src="images/kv logo.png" alt="Logo" class = "logo2">
+                    </div>
+                    <div class="list-wrapper">
+                        <div class="icon-wrapper">
+                            <img src="images/icon.svg" alt="Icon" class = "icon">
+                        </div>
+                        <div class="list">
+                            Employee List
+                        </div>
+                    </div>
+                </div> 
+                <div class="right2">
+                    <div class="blank">
+
+                    </div>
+
+                    <div class="heading">
+                        <h1>Create Employee</h1>
+                    </div>
+
+                    <div class="form2-wrapper">
+                        <form action="/">
+                            <div class="form2">
+                                <div class="inp2">
+                                    <label for="name">Employee Name</label>
+                                    <input type="text" placeholder="Employee Name" id="name">
+                                </div>
+                                <div class="inp2">
+                                    <label for="eid">Employee ID</label>
+                                    <input  type="text" placeholder="Employee ID" id="eid">
+                                </div>
+                                <div class="inp2">
+                                    <label for="date">Joining Date</label>
+                                    <input  type="text" placeholder="Joining Date" id="date">
+                                </div>
+                                <div class="inp2">
+                                    <label for="role">Role</label>
+                                    <select name="role" id="role">
+                                        <option>Choose Role</option>
+                                        <option class="options" value="developer">Frontend Developer</option>
+                                        <option class="options" value="developer">Backend Developer</option>
+                                        <option class="options" value="developer">QA Engineer</option>
+                                        <option class="options" value="developer">DevOps Engineer</option>
+                                    </select>
+                                </div>
+                                <div class="inp2">
+                                    <label for="status">Status</label>
+                                    <select name="status" id="status">
+                                        <option>Status</option>
+                                        <option class="options" value="developer">Intern</option>
+                                        <option class="options" value="developer">Full Time Employee </option>
+                                    </select>
+                                </div>
+                                <div class="inp2">
+                                    <label for="exp">Experience</label>
+                                    <input  type="text" placeholder="Experience" id="exp">
+                                </div>
+                                <div class="inp2">
+                                    <label for="add">Address</label>
+                                    <input  type="text" placeholder="Address" id="add">
+                                </div>
+                            </div>
+                            <input class="submit2" type="submit" value="Create">
+                            <input class="cancel" type="reset" value="Cancel">
+                        </form>
+                    </div>
+                </div>   
+            </section>
+        </main>
+    </body> 
+
+</html>
